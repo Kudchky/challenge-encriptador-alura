@@ -173,6 +173,10 @@ h3 {
         margin: 5rem auto;
     }
 
+    .main__form textarea {
+        height: 25rem;
+    }
+
     .main__button {
         flex-direction: row;
     }
