@@ -168,7 +168,7 @@ h3 {
 /* Media Queries*/
 @media (max-width: 767px) {
     .main__form textarea {
-        max-height: 32rem;
+        max-height: 25rem;
     }
 }
 
