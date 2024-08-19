@@ -105,6 +105,7 @@ const startDecrypting = () => {
             warning("No encrypted messages were found!", true);
             resultNoFound();
         } else {
+            warning();
             resultEncrDecr(resultDecrypt);
         }
     }
