@@ -51,10 +51,10 @@ const warning = (
     color = false
 ) => {
     if (!color) {
-        indication.innerHTML = `<img src="../assets/exclamation.png" style="opacity: 0"/>
+        indication.innerHTML = `<img src="./assets/exclamation.png" style="opacity: 0"/>
                                 <p>${message}</p>`;
     } else {
-        indication.innerHTML = `<img src="../assets/warning.png"/>
+        indication.innerHTML = `<img src="./assets/warning.png"/>
                                 <p style="opacity: 0.7; color: var(--red)">${message}</p>`;
     }
 };
